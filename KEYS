@@ -1,0 +1,48 @@
+This file contains the PGP keys of various developers.
+
+Users: pgp < KEYS
+       gpg --import KEYS
+Developers: 
+        pgp -kxa <your name> and append it to this file.
+        (pgpk -ll <your name> && pgpk -xa <your name>) >> this file.
+        (gpg --list-sigs <your name>
+             && gpg --armor --export <your name>) >> this file.
+
+------------------------------
+pub   2048R/2D8877DE 2016-10-03 [expires: 2018-10-03]
+uid                  Kurt T Stam (Oct-2016) <kurt.stam@gmail.com>
+sig 3        2D8877DE 2016-10-03  Kurt T Stam (Oct-2016) <kurt.stam@gmail.com>
+sub   2048R/9215D98B 2016-10-03 [expires: 2018-10-03]
+sig          2D8877DE 2016-10-03  Kurt T Stam (Oct-2016) <kurt.stam@gmail.com>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+mQENBFfygooBCADrR0LAvV+GfxpPlehozIiUQg5K29gKjK2XIakKDfjgfIz8UI9b
+Ow7GetgycOCIuzNnzKuV6M3VoqWqNDuxesGw1L9ArDc3981NcGhp7cKohVpXgCjr
+rVyLQYjRxhJF19D2fGN8URsPTCZ3HHuG2oz6sv88u+HxQQScS1DBedHo4BYosxAF
+0KLxCiL0ZW8D6JdTY8YZ0ZH/kwvVh7CzA1NKfHUzozVcj0AlPRNfN1dRdGrXl4+T
+aeEUrnofmpDXk6s9nU3JZXz2j0wYGouY3px3n7wFz+QOKGtFt2FMNXDXdZHxLPBY
+2InpfUpDvQCWvWCybMZ3miZ9awdW1NkQlhZTABEBAAG0LEt1cnQgVCBTdGFtIChP
+Y3QtMjAxNikgPGt1cnQuc3RhbUBnbWFpbC5jb20+iQE/BBMBAgApBQJX8oKKAhsD
+BQkDwmcABwsJCAcDAgEGFQgCCQoLBBYCAwECHgECF4AACgkQxnFlEC2Id94MUwf+
+I5OZYjhJGVVFMqFNA7wy2uSfw97fJMdbzY/x3+WNBb2njErXoXSiK+jrreJU0lNI
+4cP7bfUTfGP6A+n85KLLBWKPAE13IuKVZjHlqaB6i8vi45oQh2QeRjNLXMn64B6v
+e/58H9g8nT+Jpgf4b5i+mQaKJtPeKZ+hMZnb3IOMYHt4VDLUzpW37D3OC3GNz+Nj
+aIkZx2zSErWQz2NaFQTI5BcDvRQ6fWsgC3deGLxB6g5JH8fmRpyz+hWWZX2hA7rj
+K30GFfG6zgf8xBnnryK47T9PB3eaJoXJNdidJMZ46YRfjMaIEiwR4vwM+T5sDyMe
+RMG47ejyDWDmVVtEwQbp0LkBDQRX8oKKAQgAtPyrl/qvXO6vt5pCaaKLJLuotm/G
+hwdRzY6aLHMJiz5ZZk8v84mVculBIm2xEGuApps1Tj+jt3xGl/2whuP8gBeTVWhC
+qVr8oRcKalfPVFEzXAuCIaGDl7utTQEPLizWdHW746WNgocy2JKridfy/PDRfl1H
+XgeOLfYkuHqKvgX2yyPirfQ4NXJR92sV5/px9X96TEv4d00p17P7CB9eR+X3/NO1
+5HAVaKQ8PySEL8FwYkzzS/oXUgrCwwMZp0KQ4iWBF+DezrAkUH8l7Vb34XCXZJzW
+IrnwDhoVhPmpG92dnE33meyxHCs6NY4uYNuvGY7gqNckhRstmiRSA6lzqQARAQAB
+iQElBBgBAgAPBQJX8oKKAhsMBQkDwmcAAAoJEMZxZRAtiHfe3HYH/jU8QIHsOTDY
+TU/1N6DVvBxXDSLb0PDysFBiaYUtQk/1Gk3VZzxz/SEamUXsA4Su9PUDwPrT9HQk
+dh1OUi3uer8UcgSVAX2U8NMRaZTfDoE4fjbFd7XxOFvv+jZRQmWPY5VMUdxeOl8k
+UpKF5GTYZn16eAKf7W/RA+3B9aYg2tkMa5+bZ3m7UWPcsZ3CpG/4NM0LjUbK5a3F
+QACilevm035KeArVrYYxgrMUWl3p97cG68A4QgoRkZCHgl2clXmxRGzConzJcAqD
+kqy4FRKOQXNrTWvxTnJHh3320ObdEiUv75xkPsJBkR3kRm+likOh2AcE+L59fDpN
+B+Yj8cUkfyM=
+=hcDf
+-----END PGP PUBLIC KEY BLOCK-----
